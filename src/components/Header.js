@@ -14,20 +14,20 @@ function Header(){
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class=" navbar-nav ml-auto">
             <Link to="/signup">
-                <li class="nav-item active nav-link">
+                <li class="nav-item active nav-link sign">
                     Signup
                 </li>
             </Link>
             <Link to="/about">
-                <li class="nav-item nav-link">
+                <li class="nav-item nav-link nav-about">
                     About Us
                 </li>
             </Link>
-            <Link to="/contact">
+            {/* <Link to="/contact">
                 <li class="nav-item nav-link">
                     Contact
                 </li>
-            </Link>
+            </Link> */}
         </ul>
         </div>
 
