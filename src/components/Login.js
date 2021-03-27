@@ -2,7 +2,7 @@ import React ,{ useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { auth } from './firebase';
 import Dashboard from './Dashboard';
-import './styles.css';
+
  
 function Login(){
   const history = useHistory();
@@ -31,11 +31,11 @@ function Login(){
             
             <label for="inputEmail" className="sr-only">Email address</label>
             <input type="email" id="inputEmail" value={email} onChange={e => setEmail(e.target.value)} 
-            class="form-control" placeholder="Email address" required="" ></input>
+            class="form-control" placeholder="Email address *" required="" ></input>
             
             <label for="inputPassword" class="sr-only">Password</label>
             <input type="password" id="inputPassword" value={password} onChange={e => setPassword(e.target.value)} 
-            class="form-control" placeholder="Password" required=""/>
+            class="form-control" placeholder="Password *" required=""/>
             
             <div class="checkbox mb-3">
               <input  type="checkbox"></input>

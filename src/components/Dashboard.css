@@ -1,3 +1,12 @@
 body{
     background-color: #fff;
 }
+
+.headl{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head{
+    display:flex;
+}

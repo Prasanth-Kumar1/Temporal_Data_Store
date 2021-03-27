@@ -23,11 +23,6 @@ function Header(){
                     About Us
                 </li>
             </Link>
-            {/* <Link to="/contact">
-                <li class="nav-item nav-link">
-                    Contact
-                </li>
-            </Link> */}
         </ul>
         </div>
 

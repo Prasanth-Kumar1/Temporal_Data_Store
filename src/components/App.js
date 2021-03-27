@@ -6,12 +6,13 @@ import Signup from "./Signup";
 import About from "./About";
 import Head from "./Head";
 import Dashboard from "./Dashboard";
+import Pagenot from "./Pagenot";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 function App() {
   return (
     <Router>
-      <div className="img">
+      <div>
             
         <Switch>
           <Route path="/" exact>
@@ -30,6 +31,7 @@ function App() {
               <Head />
               <Dashboard />
           </Route>
+          <Route path="*"><Pagenot /></Route>
         </Switch>
         {/* <Footer /> */}
       </div>
